@@ -13,6 +13,7 @@
 		B1F9012C21588B340000A375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F9012B21588B340000A375 /* Assets.xcassets */; };
 		B1F9012F21588B340000A375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F9012D21588B340000A375 /* LaunchScreen.storyboard */; };
 		B1F9013221588B340000A375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F9013121588B340000A375 /* main.m */; };
+		B1F9013B2158906C0000A375 /* TCProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F9013A2158906C0000A375 /* TCProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B1F9012E21588B340000A375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1F9013021588B340000A375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1F9013121588B340000A375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1F901392158906C0000A375 /* TCProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCProgressView.h; sourceTree = "<group>"; };
+		B1F9013A2158906C0000A375 /* TCProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		B1F9012121588B340000A375 /* TCProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				B1F9013821588E800000A375 /* Source */,
 				B1F9012221588B340000A375 /* AppDelegate.h */,
 				B1F9012321588B340000A375 /* AppDelegate.m */,
 				B1F9012521588B340000A375 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				B1F9013121588B340000A375 /* main.m */,
 			);
 			path = TCProgressView;
+			sourceTree = "<group>";
+		};
+		B1F9013821588E800000A375 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B1F901392158906C0000A375 /* TCProgressView.h */,
+				B1F9013A2158906C0000A375 /* TCProgressView.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +156,7 @@
 			files = (
 				B1F9012721588B340000A375 /* ViewController.m in Sources */,
 				B1F9013221588B340000A375 /* main.m in Sources */,
+				B1F9013B2158906C0000A375 /* TCProgressView.m in Sources */,
 				B1F9012421588B340000A375 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
