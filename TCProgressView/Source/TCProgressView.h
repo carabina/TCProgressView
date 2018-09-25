@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TCProgressView : UIView
 
+@property (nonatomic, assign)CGFloat progress;
+
 @end
 
 NS_ASSUME_NONNULL_END
